@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription-page</title>
+    <link rel="stylesheet" href="../css/inscriptionstyle.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>KMRAuto</h1>
+            <ul>
+                <li><a href="home.html">Accueil</a></li>
+                <li><a href="cars.html">Voitures</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            
+            <form class="search-bar" action="#" method="get">
+                <input type="text" placeholder="Rechercher...">
+                <button type="submit">🔍</button>
+            </form>
+        </nav>
+
+        <div class="login-register">
+          <a href="login.html" class="btn-login">Connexion</a>
+          <a href="inscription.html" class="btn-register">Inscription</a>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>Inscrivez-vous</h1>
+        <form class="register-form" action="#" method="post">
+            <div class="input-group">
+                <label for="username">Nom :</label>
+                <input type="text" id="username" name="nom" required>
+            </div>
+            <div class="input-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="mot_de_passe" required>
+            </div>
+            <button type="submit" class="btn-submit">S'inscrire</button>
+        </form>
+    </main>
+       
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMRAuto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>KMRAuto</h1>
+            <ul>
+                <li><a href="home.html">Accueil</a></li>
+                <li><a href="cars.html">Voitures</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            
+            <form class="search-bar" action="#" method="get">
+                <input type="text" placeholder="Rechercher...">
+                <button type="submit"></button>
+            </form>
+        </nav>
+
+        <div class="login-register">
+          <a href="login.html" class="btn-login">Connexion</a>
+          <a href="inscription.html" class="btn-register">Inscription</a>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>Bienvenue chez KMRAuto</h1>
+
+       <section class="car-reservation">
+    <h2>Location de voitures en France</h2>
+    <p class="info">Même lieu de retour <span>▼</span> &nbsp;&nbsp; Âge de la personne qui conduit : <strong>minimum 18 ans ▼</strong></p>
+
+    <form class="reservation-bar">
+        <div class="input-group">
+            <i class="fa-solid fa-car"></i>
+            <input type="text" placeholder="Aéroport ou ville" required>
+        </div>
+
+        <div class="input-group">
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="date" required>
+            <select>
+                <option>Midi</option>
+                <option>Matin</option>
+                <option>Soir</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="date" required>
+            <select>
+                <option>Midi</option>
+                <option>Matin</option>
+                <option>Soir</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn-search">Rechercher</button>
+    </form>
+
+    </div>
+</section>
+
+
+        <section>
+            <h2>Nos Services</h2>
+            <p>Découvrez nos services de vente et d'entretien de véhicules.</p>
+        </section>
+
+        <section>
+            <h2>Nos Voitures</h2>
+            <p>Explorez notre large gamme de voitures disponibles à la location.</p>
+
+            <div class="car-gallery">
+
+                <div class="car-item">
+                    <img src="../images/peugeot-208.jpg" alt="Voiture 1">
+                    <h3>Peugeot 208</h3>
+                    <p>ou Petite similaire</p>
+                    <div class="car-info">
+                        <p><i class="fa-solid fa-user"></i> 2</p>
+                        <p><i class="fa-solid fa-suitcase"></i> 2</p>
+                        <p><i class="fa-solid fa-car"></i> 4-5</p>
+                        <p><i class="fa-solid fa-gear"></i> M</p>
+                    </div>
+                    <div class="price"><span>13 €</span> /jour</div>
+                    <button>Voir l’offre</button>
+                </div>
+
+                <div class="car-item">
+                    <img src="../images/Renault-Clio.jpg" alt="Voiture 2">
+                    <h3>Renault Clio</h3>
+                    <p>ou Petite similaire</p>
+                    <div class="car-info">
+                        <p><i class="fa-solid fa-user"></i> 2</p>
+                        <p><i class="fa-solid fa-suitcase"></i> 2</p>
+                        <p><i class="fa-solid fa-car"></i> 4-5</p>
+                        <p><i class="fa-solid fa-gear"></i> M</p>
+                    </div>
+                    <div class="price"><span>15 €</span> /jour</div>
+                    <button>Voir l’offre</button>
+                </div>
+
+                <div class="car-item">
+                    <img src="../images/opelcorso.jpg" alt="Voiture 3">
+                    <h3>Opel Corsa</h3>
+                    <p>ou Moyenne similaire</p>
+                    <div class="car-info">
+                        <p><i class="fa-solid fa-user"></i> 4</p>
+                        <p><i class="fa-solid fa-suitcase"></i> 3</p>
+                        <p><i class="fa-solid fa-car"></i> 4-5</p>
+                        <p><i class="fa-solid fa-gear"></i> A</p>
+                    </div>
+                    <div class="price"><span>19 €</span> /jour</div>
+                    <button>Voir l’offre</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KMRAuto. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
