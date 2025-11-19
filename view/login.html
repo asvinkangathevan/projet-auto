@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login-page</title>
-    <link rel="stylesheet" href="../css/loginstyle.css">
+    <link rel="stylesheet" href="/BookingAuto/css/loginstyle.css">
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1>KMRAuto</h1>
+            <h1>BookingAuto</h1>
             <ul>
-                <li><a href="home.html">Accueil</a></li>
-                <li><a href="cars.html">Voitures</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <a href="/BookingAuto/index.php?controller=home">Accueil</a>
+                <a href="/BookingAuto/index.php?controller=cars">Voitures</a>
+                <a href="/BookingAuto/index.php?controller=services">Services</a>
+                <a href="/BookingAuto/index.php?controller=contact">Contact</a>
             </ul>
 
             
@@ -27,8 +27,8 @@
         </nav>
 
         <div class="login-register">
-          <a href="login.html" class="btn-login">Connexion</a>
-          <a href="inscription.html" class="btn-register">Inscription</a>
+          <a href="/BookingAuto/index.php?controller=login" class="btn-login">Se connecter</a>
+          <a href="/BookingAuto/index.php?controller=register" class="btn-register">S'inscrire</a>
         </div>
 
     </header>
@@ -37,12 +37,12 @@
         <h1>Connectez-vous</h1>
         <form class="login-form" action="#" method="post">
             <div class="input-group">
-                <label for="username">Nom d'utilisateur :</label>
-                <input type="text" id="username" name="username" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
             </div>
             <div class="input-group">
                 <label for="password">Mot de passe :</label>
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" name="mot_de_passe" required>
             </div>
             <button type="submit" class="btn-submit">Se connecter</button>
         </form>
